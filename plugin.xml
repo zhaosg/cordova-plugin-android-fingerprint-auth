@@ -38,22 +38,23 @@
         <source-file src="res/android/drawable-xxxhdpi/ic_fp_40px.png" target-dir="res/drawable-xxxhdpi" />
         <source-file src="res/android/layout/fingerprint_dialog_container.xml" target-dir="res/layout" />
         <source-file src="res/android/layout/fingerprint_dialog_content.xml" target-dir="res/layout" />
-        <source-file src="res/android/values/fpauth-colors.xml" target-dir="res/values" />
-        <source-file src="res/android/values/fpauth-strings.xml" target-dir="res/values" />
-        <source-file src="res/android/values-it/fpauth-strings.xml" target-dir="res/values-it" />
-        <source-file src="res/android/values-es/fpauth-strings.xml" target-dir="res/values-es" />
-        <source-file src="res/android/values-ru/fpauth-strings.xml" target-dir="res/values-ru" />
-        <source-file src="res/android/values-fr/fpauth-strings.xml" target-dir="res/values-fr" />
-        <source-file src="res/android/values-zh/fpauth-strings.xml" target-dir="res/values-zh" />
-        <source-file src="res/android/values-zh-rCN/fpauth-strings.xml" target-dir="res/values-zh-rCN" />
-        <source-file src="res/android/values-zh-rHK/fpauth-strings.xml" target-dir="res/values-zh-rHK" />
-        <source-file src="res/android/values-zh-rMO/fpauth-strings.xml" target-dir="res/values-zh-rMO" />
-        <source-file src="res/android/values-zh-rSG/fpauth-strings.xml" target-dir="res/values-zh-rSG" />
-        <source-file src="res/android/values-zh-rTW/fpauth-strings.xml" target-dir="res/values-zh-rTW" />
-        <source-file src="res/android/values-no/fpauth-strings.xml" target-dir="res/values-no" />
-        <source-file src="res/android/values-pt/fpauth-strings.xml" target-dir="res/values-pt" />
-        <source-file src="res/android/values-ja/fpauth-strings.xml" target-dir="res/values-ja" />
-        <source-file src="res/android/values-de/fpauth-strings.xml" target-dir="res/values-de" />
+
+        <resource-file src="res/android/values/fpauth-colors.xml" target="res/values/fpauth-colors.xml" />
+        <resource-file src="res/android/values/fpauth-strings.xml" target="res/values/fpauth-colors.xml" />
+        <resource-file src="res/android/values-it/fpauth-strings.xml" target="res/values-it/fpauth-colors.xml" />
+        <resource-file src="res/android/values-es/fpauth-strings.xml" target="res/values-es/fpauth-colors.xml" />
+        <resource-file src="res/android/values-ru/fpauth-strings.xml" target="res/values-ru/fpauth-colors.xml" />
+        <resource-file src="res/android/values-fr/fpauth-strings.xml" target="res/values-fr/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh/fpauth-strings.xml" target="res/values-zh/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh-rCN/fpauth-strings.xml" target="res/values-zh-rCN/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh-rHK/fpauth-strings.xml" target="res/values-zh-rHK/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh-rMO/fpauth-strings.xml" target="res/values-zh-rMO/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh-rSG/fpauth-strings.xml" target="res/values-zh-rSG/fpauth-colors.xml" />
+        <resource-file src="res/android/values-zh-rTW/fpauth-strings.xml" target="res/values-zh-rTW/fpauth-colors.xml" />
+        <resource-file src="res/android/values-no/fpauth-strings.xml" target="res/values-no/fpauth-colors.xml" />
+        <resource-file src="res/android/values-pt/fpauth-strings.xml" target="res/values-pt/fpauth-colors.xml" />
+        <resource-file src="res/android/values-ja/fpauth-strings.xml" target="res/values-ja/fpauth-colors.xml" />
+        <resource-file src="res/android/values-de/fpauth-strings.xml" target="res/values-de/fpauth-colors.xml" />
 
     </platform>
 
